@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serie fibonacci</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+    <div id="container"> <!--El <div id="container"> nos servira para darle estilo en nuestra hoja-->
+    
+        <!--El <input type="number"> lo definimos como tipo numerico, damos un rango del 1 al 99-->
+        <input type="number" id="numberInput" min="1" max="99" placeholder="Ingrese un número">
+
+        <!-- El boton <button onclick="generateFibonacciSeries()"> es un botón que, cuando se hace clic, llamará a la función generateFibonacciSeries() para generar la serie de Fibonacci -->
+        <button onclick="generateFibonacciSeries()">Generar serie de Fibonacci</button>
+
+        <!-- El <div id="fibonacciSeries"> es un contenedor donde se mostrará la serie de Fibonacci generada -->
+        <div id="fibonacciSeries"></div>
+    </div>
+</body>
+
+<!--Con esto hacemos el línk a nuestra pagina de JS-->
+<script src="script2.js"></script>
+</html>

@@ -1,0 +1,43 @@
+body {
+    /* Le damos estilo al cuerpo */
+    display: flex; 
+    flex-direction: column; /* Colocar los elementos en una columna vertical */
+    align-items: center; /* Centrar horizontalmente los elementos */
+    justify-content: center; /* Centrar verticalmente los elementos */
+    height: 100vh; /* Establecer la altura del cuerpo como 100% del viewport */
+    background-color: #000000; /* Establecer el color de fondo como negro */
+}
+
+#container {
+    /* Configuración para el contenedor principal */
+    display: flex; /* Mostrar los elementos como un flex container */
+    flex-direction: column; /* Colocar los elementos en una columna vertical */
+    align-items: center; /* Centrar horizontalmente los elementos */
+    background-color: rgb(133, 25, 176); /* Establecer el color de fondo */
+    padding: 20px; /* Agregar relleno de 20px alrededor del contenedor */
+    border-radius: 10px; /* Agregar bordes redondeados de 10px */
+    box-shadow: 0px 0px 10px rgba(173, 4, 4, 0.1); /* Agregar una sombra al contenedor */
+    width: 50%; /* Establecer el ancho del contenedor al 50% del contenedor padre */
+}
+
+#fibonacciSeries {
+    /* Configuración para el contenedor de la serie de Fibonacci */
+    margin-top: 20px; /* Agregar un margen superior de 20px */
+}
+
+input[type="number"] {
+    /* Configuración para el campo de entrada numérico */
+    width: 100%; /* Establecer el ancho del campo al 100% del contenedor */
+    padding: 10px; /* Agregar relleno de 10px alrededor del campo */
+    border-radius: 5px; /* Agregar bordes redondeados de 5px */
+    color: rgb(0, 12, 12); /* Establecer el color de texto */
+    background-color: rgb(215, 227, 229); /* Establecer el color de fondo */
+}
+
+button {
+    /* Configuración para el botón */
+    width: 100%; /* Establecer el ancho del botón al 100% del contenedor */
+    padding: 10px; /* Agregar relleno de 10px alrededor del botón */
+    margin-top: 10px; /* Agregar un margen superior de 10px */
+    background-color: rgb(234, 176, 216); /* Establecer el color de fondo */
+}
